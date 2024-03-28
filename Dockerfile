@@ -16,7 +16,9 @@ RUN apk add --no-cache ca-certificates build-base git
 WORKDIR /code
 
 # Download dependencies and CosmWasm libwasmvm if found.
-ADD go.mod go.sum ibc-go ./
+ADD go.mod go.sum ./
+ADD ibc-go ./ibc-go
+
 RUN set -eux; \    
     export ARCH=$(uname -m); \
     WASM_VERSION=$(go list -m all | grep github.com/CosmWasm/wasmvm | awk '{print $2}'); \
