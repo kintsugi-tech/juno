@@ -29,7 +29,7 @@ require (
 	github.com/prometheus/client_golang v1.16.0
 	github.com/skip-mev/pob v1.0.4
 	github.com/spf13/cast v1.5.1
-	github.com/spf13/cobra v1.7.0
+	github.com/spf13/cobra v1.8.0
 	github.com/spf13/viper v1.16.0
 	github.com/stretchr/testify v1.8.4
 	google.golang.org/genproto/googleapis/api v0.0.0-20231212172506-995d672761c0
