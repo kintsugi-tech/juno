@@ -6,7 +6,7 @@ go 1.21
 // toolchain go1.21.0
 
 require (
-	cosmossdk.io/api v0.3.1
+	cosmossdk.io/api v0.7.5
 	cosmossdk.io/errors v1.0.1
 	cosmossdk.io/log v1.3.0
 	cosmossdk.io/math v1.2.0
@@ -16,7 +16,7 @@ require (
 	github.com/cometbft/cometbft v0.37.4
 	github.com/cometbft/cometbft-db v0.8.0
 	github.com/cosmos/cosmos-sdk v0.47.8
-	github.com/cosmos/gogoproto v1.4.10
+	github.com/cosmos/gogoproto v1.4.11
 	github.com/cosmos/ibc-apps/middleware/packet-forward-middleware/v7 v7.1.3-0.20240228213828-cce7f56d000b
 	github.com/cosmos/ibc-apps/modules/async-icq/v7 v7.0.0
 	github.com/cosmos/ibc-apps/modules/ibc-hooks/v7 v7.0.0-20230803181732-7c8f814d3b79
@@ -170,7 +170,7 @@ require (
 	go.etcd.io/bbolt v1.3.7 // indirect
 	go.opencensus.io v0.24.0 // indirect
 	golang.org/x/crypto v0.16.0 // indirect
-	golang.org/x/exp v0.0.0-20230711153332-06a737ee72cb // indirect
+	golang.org/x/exp v0.0.0-20230811145659-89c5cff77bcb // indirect
 	golang.org/x/net v0.19.0 // indirect
 	golang.org/x/oauth2 v0.13.0 // indirect
 	golang.org/x/sync v0.4.0 // indirect
